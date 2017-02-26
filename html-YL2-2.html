@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head> 
+		<title>Ülesanne 2.2</title>
+		<style>
+			table, th, td {
+			border: 1px solid black;
+		}
+		</style>
+	</head>
+	
+	<form action="html-YL2-2.html" method="GET" >
+		<table>
+			<tr>
+				<td>Kasutajanimi:</td>
+				<td><input type="text" name="Kasutajanimi" placeholder="Sisestage kasutajanimi" ></td>
+			</tr>
+			
+			<tr>
+				<td>Parool:</td>
+				<td><input type="password" name="Parool" placeholder="Sisestage parool" ></td>
+			</tr>
+			
+			<tr>
+				<td>Raadionupud</td>
+				<td>
+					<input type="radio" name="Valikud" value="Valik1" checked> Valik1 <br>
+					<input type="radio" name="Valikud" value="Valik2"> Valik2 <br>
+					<input type="radio" name="Valikud" value="Valik3"> Valik3
+				</td>
+			</tr>
+			
+			<tr>
+				<td>Peidetud</td>
+				<td><input type="hidden" name="Peidetud" ></td>
+			</tr>
+			
+			<tr>
+				<td>Checkboxid</td>
+				<td>
+					<input type="checkbox" name="Valik1" value="Valik1"> Valik1 <br>
+					<input type="checkbox" name="Valik2" value="Valik2"> Valik2 
+				</td>
+			</tr>
+			
+			<tr>
+				<td>Kuu</td>
+				<td><input type="month" name="month" placeholder="Sisestage kuu" ></td>
+			</tr>
+		</table>
+		
+		<input type="submit" value="Saada">
+		
+	</form>
+
+</html>
