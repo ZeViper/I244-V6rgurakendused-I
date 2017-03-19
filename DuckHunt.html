@@ -22,7 +22,13 @@
 	
 	<script>
 	  window.onload = function() {
-	  
+		var target = document.getElementById('target');
+		target.onclick=function(){
+		
+		  target.style.left = Math.round( Math.random() * 700 ) + "px";
+		  target.style.top = Math.round( 350 + ( Math.random() * 100 ) ) + "px";
+		
+		}
 	  }
 	</script>
   </body>
