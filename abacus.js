@@ -2,7 +2,7 @@ window.onload = function() {
   
   var beads = document.querySelectorAll('.bead');
   
-  for( i = 0; i < beads.length; i++ ) {
+  for ( i = 0; i < beads.length; i++ ) {
 	
 	beads[ i ].onclick = function() {
 	  
