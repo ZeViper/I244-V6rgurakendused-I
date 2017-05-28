@@ -1,0 +1,28 @@
+/* SIDEBAR STYLES */
+#sidebar {
+	float: left;
+	width: 220px; /*max width*/
+	/*border: 2px solid cyan; /*for testing*/
+}
+
+#sidebar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+	
+#sidebar li {
+	padding: 4px 0 4px 0;
+	border-top: 2px solid #666666;
+}
+
+#sidebar a {
+	padding-left: 20px;
+	letter-spacing: 3px;
+	font-size: 20px;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+/* SIDEBAR ACTION STYLES */
+#sidebar li:hover { background: linear-gradient(to right, rgba(0,178,255,0.2), rgba(0,178,255,0.05), rgba(0,178,255,0.05), rgba(0,178,255,0.2));}
+/*background: linear-gradient(to right, rgba(255,0,0,0.01), rgba(255,0,0,0.3), rgba(0,178,255,0.2), rgba(0,178,255,0.2), rgba(0,178,255,0.3), rgba(0,178,255,0));*/

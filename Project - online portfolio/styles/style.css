@@ -1,0 +1,36 @@
+body {
+	background-color: #0d0d0d;
+}
+/*TEXT COLORS*/
+a, h1, article, footer {
+	color: #f2f2f2;
+}
+
+a { text-decoration: none;}
+
+#sitename { padding: 30px 0 30px 18px;}
+
+#sitename, h1 {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 46px;
+}
+
+header, footer {
+	margin: 0 120px 0 32px;
+	/*border: 2px solid blue; /*for testing, valge värviga pole paigast ära*/
+	max-width: 1200px;
+}
+
+.components {
+	margin: 0 120px 0 32px;
+	/*border: 2px solid white; /*for testing*/
+	max-width: 1200px;
+}
+
+.components h1 { margin: 0;}
+	
+article {
+	/*border: 2px solid red; /*for testing*/
+	padding-left: 20px;
+	overflow: hidden;
+}
